@@ -64,3 +64,20 @@ The Power BI dashboard provides:
 ---
 
 ## 🗂️ Repository Structure
+
+Here’s how the project files are organized:
+
+```plaintext
+international-students-demographics-analysis/
+│
+├── data/  
+│   └── (optional) sample CSVs or placeholders  
+│
+├── notebooks/  
+│   └── International_Students_Demographics_Cleanup.ipynb   # Python data cleaning notebook  
+│
+├── dashboard/  
+│   └── International_Students_PowerBI.pbix                  # Power BI visualization file  
+│
+├── README.md                                                # Project documentation  
+└── output_file.xlsx                                         # Cleaned Excel dataset (6 sheets)
